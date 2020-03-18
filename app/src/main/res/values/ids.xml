@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="custom_btn_follow" type="id" />
+    <item name="custom_tv_name" type="id" />
+    <item name="custom_tv_like" type="id" />
+    <item name="custom_tv_share" type="id" />
+    <item name="custom_tv_comment" type="id" />
+    <item name="custom_tv_body" type="id" />
+</resources>

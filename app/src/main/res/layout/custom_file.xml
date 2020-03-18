@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/custom_tv_date"
+        android:text="12,34,66"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridl"
+        android:layout_below="@+id/custom_tv_date"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:rowCount="4">
+
+
+        <ImageView
+            android:layout_columnWeight="1"
+            android:layout_rowSpan="3"
+            android:layout_rowWeight="1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/custom_tv_image"
+            android:src="@drawable/ic_person"/>
+      <TextView
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="1"
+          android:gravity="center"
+        android:drawableStart="@drawable/ic_person"
+        android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/custom_tv_following"
+          android:text="following"
+          android:textStyle="bold"
+          android:layout_gravity="center"
+          android:textSize="20dp"
+          android:padding="10dp"/>
+        <TextView
+android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:id="@+id/custom_tv_following_data"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_tv_post"
+            android:text="post"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <TextView
+android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:id="@+id/custom_tv_post_data"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center"
+            android:drawableStart="@drawable/ic_person"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_tv_followers"
+            android:text="followers"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:id="@+id/custom_tv_followers_data"
+            android:gravity="center"/>
+
+        <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="follow"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@id/custom_btn_follow"/>
+
+
+        <TextView
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dodddy"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:id="@id/custom_tv_body"
+            android:padding="10dp"/>
+
+
+
+
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/gridl"
+        android:text="ahmad adam omer"
+        android:id="@id/custom_tv_name"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_tv_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp">
+
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_favorite_black_24dp"
+            android:text="like"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@id/custom_tv_like"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_favorite_black_24dp"
+            android:text="share"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@id/custom_tv_share"
+            android:layout_weight="1"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_comment"
+            android:text="comment"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@id/custom_tv_comment"
+            android:layout_weight="1"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
